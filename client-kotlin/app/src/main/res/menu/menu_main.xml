@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.sislibreria.MainActivity">
+    <item
+        android:id="@+id/action_inicio"
+        android:orderInCategory="100"
+        android:title="Inicio"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_fraguserrol"
+        android:orderInCategory="101"
+        android:title="Usuario Y Rol"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_listadelibros"
+        android:orderInCategory="102"
+        android:title="Lista de Libros"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_misclientes"
+        android:orderInCategory="103"
+        android:title="Clientes"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_salir"
+        android:orderInCategory="104"
+        android:title="Salir Sistema"
+        app:showAsAction="never" />
+
+</menu>
